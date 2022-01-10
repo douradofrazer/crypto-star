@@ -1,0 +1,132 @@
+truffle migrate --reset --network rinkeby
+
+Compiling your contracts...
+===========================
+> Compiling @openzeppelin\contracts\token\ERC721\ERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721Receiver.sol
+> Compiling @openzeppelin\contracts\token\ERC721\extensions\IERC721Metadata.sol
+> Compiling @openzeppelin\contracts\utils\Address.sol
+> Compiling @openzeppelin\contracts\utils\Context.sol
+> Compiling @openzeppelin\contracts\utils\Strings.sol
+> Compiling @openzeppelin\contracts\utils\introspection\ERC165.sol
+> Compiling @openzeppelin\contracts\utils\introspection\IERC165.sol
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\StarNotary.sol
+> Artifacts written to <..>\crypto-star\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.11+commit.d7f03943.Emscripten.clang
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        9969388
+   > block timestamp:     1641853608
+   > account:             0xD10DA32e7560Ef650dAbB392289C48bEA37AcD45
+   > balance:             0.09813157
+   > gas used:            186843 (0x2d9db)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00186843 ETH
+
+   -------------------------------------
+   > Total cost:          0.00186843 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > block number:        9969390
+   > block timestamp:     1641853637
+   > account:             0xD10DA32e7560Ef650dAbB392289C48bEA37AcD45
+   > balance:             0.06946369
+   > gas used:            2839272 (0x2b52e8)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02839272 ETH
+
+   -------------------------------------
+   > Total cost:          0.02839272 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.03026115 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29970648 (0x1c950d8)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x0a4867078aa9519e33fe21cfd26c0df75d07cc5bbd5bf7721b66a46b7e283a85
+   > Blocks: 1            Seconds: 10
+   > contract address:    0x8f81BDdc901f845e27B3C62d2B56873308Bb6b72
+   > block number:        9969392
+   > block timestamp:     1641853665
+   > account:             0xD10DA32e7560Ef650dAbB392289C48bEA37AcD45
+   > balance:             0.09796857
+   > gas used:            203143 (0x31987)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00203143 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00203143 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0x979ae7aa570a201a819375accaa1608ab9bdeb539da7e788209bc95944aa6797
+   > Blocks: 2            Seconds: 22
+   > contract address:    0xDf01aEb4d7C240d2B43BE70e72F3864654B5F374
+   > block number:        9969395
+   > block timestamp:     1641853710
+   > account:             0xD10DA32e7560Ef650dAbB392289C48bEA37AcD45
+   > balance:             0.06879069
+   > gas used:            2871872 (0x2bd240)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02871872 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02871872 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.03075015 ETH
